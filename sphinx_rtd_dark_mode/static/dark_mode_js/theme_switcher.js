@@ -25,15 +25,15 @@ const switchTheme = () => {
     localStorage.setItem('theme', 'light');
     document.documentElement.setAttribute('data-theme', 'light');
 
-    $('#themeSun').fadeOut(200, () => {
-      $('#themeMoon').fadeIn(200);
+    $('#themeSun').fadeOut(100, () => {
+      $('#themeMoon').fadeIn(100);
     });
   } else {
     localStorage.setItem('theme', 'dark');
     document.documentElement.setAttribute('data-theme', 'dark');
 
-    $('#themeMoon').fadeOut(200, () => {
-      $('#themeSun').fadeIn(200);
+    $('#themeMoon').fadeOut(100, () => {
+      $('#themeSun').fadeIn(100);
     });
   }
 };

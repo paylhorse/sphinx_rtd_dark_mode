@@ -79,7 +79,7 @@ html[data-theme='dark'] footer {
   color: #bdbdbd;
 }
 
-html[data-theme='dark'] .wy-nav-side {
+/* html[data-theme='dark'] .wy-nav-side {
   background-color: #0d0d0d;
 }
 
@@ -134,7 +134,7 @@ html[data-theme='dark'] .wy-side-nav-search input[type='text'] {
   border-color: #111;
   background-color: #141414;
   color: var(--dark-text-color);
-}
+} */
 
 html[data-theme='dark'] .theme-switcher {
   background-color: #141414;
