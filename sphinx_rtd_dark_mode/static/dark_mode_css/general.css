@@ -66,3 +66,132 @@ code,
 .rst-content tt.xref {
   transition: all 0.2s ease-in-out;
 }
+
+/* Improved version of luadoc.css */
+
+strong { font-weight: bold;}
+
+em { font-style: italic;}
+
+/* Lua function tables */
+table.function_list {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-collapse: collapse;
+}
+table.function_list td {
+    border-width: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+table.function_list td.name { background-color: #f0f0f0; }
+table.function_list td.summary { width: 100%; }
+
+dl.table dt,
+dl.function dt {border-top: 1px solid #ccc; padding-top: 1em;}
+dl.table dd,
+dl.function dd {padding-bottom: 1em; margin: 10px 0 0 20px;}
+dl.table h3,
+dl.function h3 {font-size: .95em;}
+
+/* Lua code blocks */
+pre.example {
+    background-color: #333333;
+    border: 1px solid #414141;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    overflow-x: auto;
+    font-weight: bold;
+}
+
+/* Other code blocks */
+/* Option 1: Dark Console */
+div.highlight {
+    background-color: #333333;
+    border: 1px solid #414141;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    overflow-x: auto;
+    color: #e4e4e4;
+    font-weight: bold;
+}
+/* Option 2: Soft Beige */
+/* div.highlight {
+    background-color: #e0dad5;
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    overflow-x: auto;
+    color: #131313;
+    font-weight: bold;
+} */
+
+/* Lua code text */
+pre.example code {
+    color: #e4e4e4;
+    background-color: #333333;
+    border: none;
+    white-space: pre;
+    padding: 0px;
+    font-weight: bold;
+}
+
+/* Links */
+a:not(:link) {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    cursor: inherit;
+}
+a:link { font-weight: bold; color: #6696b6; text-decoration: none; }
+a:visited { font-weight: bold; color: #4d6a91; text-decoration: none; }
+a:link:hover { text-decoration: underline; }
+
+/* Main Page */
+div.wy-nav-content {
+    background-color: #efefef;
+}
+
+/* Section Headers */
+span.caption-text {
+    color: #747575;
+}
+
+/* Search Bar Container */
+div.wy-side-nav-search {
+    background-image: url("header.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* List */
+li {
+    margin: -4px 0;
+}
+
+/* Toctree List */
+div.toctree-wrapper.compound {
+    background-color: #e2e2e2;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    margin-bottom: 16px;
+}
+
+/* table.function_list {
+    background: #cfcfcf;
+    border-color: #4e4e4e;
+    border: 1px solid #6e6e6e;
+}
+
+td.name {
+    background-color: #cfcfcf;
+    border: 1px solid #9c9c9c;
+}
+
+td.summary {
+    background-color: #dfdfdf;
+    border: 1px solid #9c9c9c;
+} */

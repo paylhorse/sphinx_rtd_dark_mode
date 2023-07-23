@@ -1,6 +1,6 @@
 import os
 import sys
-import content_filter
+# import content_filter
 
 sys.path.insert(0, os.path.abspath("../.."))
 

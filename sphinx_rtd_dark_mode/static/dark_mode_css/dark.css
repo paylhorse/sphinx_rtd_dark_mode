@@ -8,7 +8,7 @@ html[data-theme='dark'] body {
 }
 
 html[data-theme='dark'] .wy-nav-content-wrap {
-  background-color: #101010;
+  background-color: #141414;
 }
 
 html[data-theme='dark'] .wy-nav-content {
@@ -498,4 +498,17 @@ html[data-theme='dark']
   li.toctree-l4
   > a {
   background-color: #18181a;
+}
+
+html[data-theme='dark'] div.wy-side-nav-search {
+  background-image: url("headerDark.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+html[data-theme='dark'] div.toctree-wrapper.compound {
+  background-color: #5f5d5a;
+  padding: 16px;
+  border: 1px solid #cccccc;
+  margin-bottom: 16px;
 }
