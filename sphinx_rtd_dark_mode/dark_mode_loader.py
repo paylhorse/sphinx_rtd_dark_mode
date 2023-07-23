@@ -51,13 +51,19 @@ class DarkModeLoader:
         if "css_files" in self.config.html_context:
             self.config.html_context["css_files"].append("_static/dark_mode_css/general.css")
             self.config.html_context["css_files"].append("_static/dark_mode_css/dark.css")
+            self.config.html_context["css_files"].append("_static/dark_mode_css/header.jpeg")
+            self.config.html_context["css_files"].append("_static/dark_mode_css/headerDark.jpeg")
             return
 
         if not self.config.html_css_files:
             self.config.html_css_files = [
                 "dark_mode_css/general.css",
                 "dark_mode_css/dark.css",
+                "dark_mode_css/header.jpeg",
+                "dark_mode_css/headerDark.jpeg",
             ]
         else:
             self.config.html_css_files.append("dark_mode_css/general.css")
             self.config.html_css_files.append("dark_mode_css/dark.css")
+            self.config.html_css_files.append("dark_mode_css/header.jpeg")
+            self.config.html_css_files.append("dark_mode_css/headerDark.jpeg")
