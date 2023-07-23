@@ -22,6 +22,8 @@ setuptools.setup(
             "static/dark_mode_js/theme_switcher.js",
             "static/dark_mode_js/default_light.js",
             "static/dark_mode_js/default_dark.js",
+            "static/header.jpeg",
+            "static/headerDark.jpeg",
         ]
     },
     license=sphinx_rtd_dark_mode.__license__,
