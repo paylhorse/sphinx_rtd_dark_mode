@@ -18,16 +18,16 @@ input[type='week'] {
 .theme-switcher {
   border-radius: 50%;
   position: fixed;
-  right: 1.6em;
-  bottom: 1.4em;
+  right: 0.8em;
+  top: 0.6em;
   z-index: 3;
   border: none;
-  height: 2.2em;
-  width: 2.2em;
-  background-color: #fcfcfc;
+  height: 1.6em;
+  width: 1.6em;
+  background-color: #efefef;
   font-size: 20px;
-  -webkit-box-shadow: 0px 3px 14px 4px rgba(0, 0, 0, 0.62);
-  box-shadow: 0px 3px 14px 4px rgba(0, 0, 0, 0.62);
+  /* -webkit-box-shadow: 0px 3px 14px 4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 3px 14px 4px rgba(0, 0, 0, 0.62); */
   color: #404040;
   transition: all 0.3s ease-in-out;
 }

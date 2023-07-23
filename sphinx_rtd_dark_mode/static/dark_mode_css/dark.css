@@ -137,7 +137,7 @@ html[data-theme='dark'] .wy-side-nav-search input[type='text'] {
 }
 
 html[data-theme='dark'] .theme-switcher {
-  background-color: #0b0c0d;
+  background-color: #141414;
   color: var(--dark-text-color);
 }
 
